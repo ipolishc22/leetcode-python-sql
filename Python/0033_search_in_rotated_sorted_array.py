@@ -16,7 +16,7 @@ class Solution:
                 return mid
                 
             # left sorted portion
-            if nums[mid] >= nums[mid]:
+            if nums[mid] >= nums[left]:
                 if target > nums[mid] or target < nums[left]:
                     left = mid + 1
                 else:
