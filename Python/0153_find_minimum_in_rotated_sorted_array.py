@@ -1,7 +1,7 @@
 # 153 Find Minimum in Rotated Sorted Array 
 #
-# O(log n) since we use binary search
-# O(1) since we don't create any new data structures
+# Time complexity: O(log n) since we use binary search
+# Space complexity: O(1) since we don't create any new data structures
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left = 0
