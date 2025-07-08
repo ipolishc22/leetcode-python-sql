@@ -26,11 +26,3 @@ class Solution:
 
         # return dummy.next as it is pointint to the real head
         return dummy.next
-    
-
-
-
-    
-    
-
-
