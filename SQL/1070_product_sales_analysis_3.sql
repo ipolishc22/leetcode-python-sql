@@ -1,4 +1,4 @@
-# 1070 Product Sales Analysis 3
+-- 1070 Product Sales Analysis 3
 SELECT s.product_id, s.year AS first_year, s.quantity, s.price
 FROM Sales s
 INNER JOIN ( 
